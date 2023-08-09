@@ -1,0 +1,742 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 85%;
+   
+}
+
+.firstsctn{
+    display: inline-block;
+    margin: 45px 90px;
+    
+}
+
+.image{
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.scndsctn{
+    display: inline-block;
+    margin: 45px 90px;
+}
+
+.firstpart{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.firstpart:hover{
+    color: red;
+}
+
+.scndpart{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.scndpart:hover{
+    color: red;
+}
+
+#about{
+    position: relative;
+}
+
+.aboutdetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+}
+
+.aboutimage{
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.imagefirst{
+    border-radius: 10px;
+}
+
+.aboutcontent{
+    justify-content: center;
+    margin-right: 5%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hello{
+    margin-bottom: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.kottaram{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-align: justify;
+}
+
+.learn{
+    margin-top: 35px;
+    text-align: center;
+   justify-content: center;
+    align-items: center;
+}
+
+.read{
+    margin-bottom: 30px;
+    background-color: rgb(255, 64, 0);
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+   justify-content: center;
+    align-items: center;
+}
+
+.readmore{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; 
+}
+
+.readmore:hover{
+    color: blue;
+}
+
+#Menu{
+    background-image: url('https://content.fortune.com/wp-content/uploads/2018/10/raceahead-whiteness.jpg?w=1440&q=75');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.menuhd{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuhd h2{
+    margin-top: 20px;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.menuhd h1{
+    color: red;
+    font-size: 35px;
+}
+
+.menuhd span{
+    color: black;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.menucontent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.content{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.biriyani{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contenth{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contentp{
+   
+   margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.ordera{
+    width: 100px;
+    border-radius: 10px;
+   
+    background-color: black;
+}
+
+.contenta{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contentone{
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
+.burger{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contentoneh{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contentonep{
+    
+   margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.orderb{
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: black;
+}
+
+.contentonea{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contenttwo{
+    margin-top: 50px;
+    margin-right: 5%;
+}
+
+.pizza{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contenttwoh{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contenttwop{
+    
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+ }
+
+ .orderc{
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: black;
+}
+
+.contenttwoa{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.menucontentone{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.contentthree{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.plaindosa{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contentthreeh{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contentthreep{
+    
+   margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.orderd{
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: black;
+}
+
+.contentthreea{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contentfour{
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
+.cakes{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contentfourh{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contentfourp{
+    
+   margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.ordere{
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: black;
+}
+
+.contentfoura{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contentfive{
+    margin-top: 50px;
+    margin-right: 5%;
+}
+
+.juices{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.contentfiveh{
+    font-size: 20px;
+   
+   margin-top: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contentfivep{
+    
+   margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.orderf{
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: black;
+}
+
+.contentfivea{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contenta:hover{
+    color: red;
+}
+
+.contentonea:hover{
+    color: red;
+}
+
+.contenttwoa:hover{
+    color: red;
+}
+
+.contentthreea:hover{
+    color: red;
+}
+
+.contentfoura:hover{
+    color: red;
+}
+
+.contentfivea:hover{
+    color: red;
+}
+
+.biriyani:hover{
+    transform: scale(1.1);
+}
+
+.burger:hover{
+    transform: scale(1.1);
+}
+
+.pizza:hover{
+    transform: scale(1.1);
+}
+
+.cakes:hover{
+    transform: scale(1.1);
+}
+
+.juices:hover{
+    transform: scale(1.1);
+}
+
+.plaindosa:hover{
+    transform: scale(1.1);
+}
+
+.menulist{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.menulist img{
+    width: 200px;
+    height: 190px;
+}
+
+.menulist h1{
+    color: brown;
+    margin-bottom: 6px;
+}
+
+.menulist h2{
+    color: green;
+    margin-bottom: 20px;
+}
+
+.menulistb{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+}
+
+.menulista{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menulista:hover{
+    color: red;
+}
+
+.timefirstpart{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.timefirstpart h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.timecontent{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+
+.timeimg img{
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 8%;
+    width: 750px;
+    height: 400px;
+} 
+
+.timepara{
+    margin-top: 35px;
+    margin-right: 8%;
+    text-align: center;
+}
+
+.timepara img{
+    width: 230px;
+    height: 170px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.paraone{
+    color: black;
+    font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.paraonep{
+    color: green;
+    font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.paratwo{
+    color: black;
+    font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.paratwop{
+    color: green;
+    font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.timepara span{
+    color: red;
+}
+
+.smiley:hover{
+    transform: scale(1.1);
+}
+
+.contactsection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(45, 38, 38);
+}
+
+.contactone{
+    margin-left: 8%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contactone h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactone p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.map{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.map:hover{
+    color: red;
+}
+
+.contacttwo{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contacttwo h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contacttwo p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactlinks{
+  display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+.copylinks{
+    margin-top: 30px;
+}
+
+.instagram{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.facebook{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.linkedin{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.whatsapp{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.mail{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contactthree{
+    margin-top: 30px;
+    margin-right: 8%;
+    margin-bottom: 50px;
+}
+
+.contactthree h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactthree p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: rgb(45, 38, 38);  
+   
+}
+
+.arrow{
+    background-color: rgb(45, 38, 38);
+    margin-left: 97%;
+}
+
+.arrow i{
+    font-size: 25px;
+}
+
+.arrow:hover i{
+    color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
